@@ -1,0 +1,64 @@
+.container{
+    /* height: 10vh;
+    width: 100vw; */
+    background-image: linear-gradient(rgba(54,69,93,0.7)
+    ,rgba(150,173,20,0.7)),url(nakul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.list-item{
+    /* margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 100px 20px; */
+    margin: 50px;
+    color: yellow;
+    font-size: 15px;
+    font-family: Arial Bold;
+}
+.button-small{
+    border: 0;
+    background-color: red;
+    padding: 10px 20px;
+    margin-right: 70px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.hero-heading{
+    font-size: 90px;
+    color: yellow;
+    font-family: "Dela+Gothic+One";
+}
+.button-large{
+    border: 0;
+    background-color: red;
+    padding: 15px 25px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+} 
+.button{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
